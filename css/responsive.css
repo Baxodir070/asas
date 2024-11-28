@@ -1,0 +1,253 @@
+@media (max-width: 480px) {
+    .header-button, .header-div2{
+        display: none;
+    }
+    .nav{
+        display: block;
+    }
+    .nav-div1{
+        display: flex;
+        margin-left: 10vw;
+        justify-content: center;
+    }
+    .nav-h1{
+        font-size: 11vw;
+        margin-left: 10vw;
+    }
+    .nav-h2{
+        width: 80vw;
+        font-size: 10vw;
+        margin-left: 5vw;
+    }
+    .nav-span{
+        margin-left: 17vw;
+        font-size: medium;
+        width: 60vw;
+        
+    }
+    .nav-button1{
+        display: none;
+        margin-left: 23vw;
+    }
+    .nav-button2{
+        margin-top: -2000px;
+        margin-bottom: 10vw;
+        margin-left: 23vw;
+    }
+    .nav-img{
+        margin-left: 13vw;
+    }
+    .sec1-div1{
+        display: none;
+    }
+    .sec1-div4{
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        grid-template-rows: auto auto;        
+        gap: 5vw;
+        width: 15vw;
+        margin-left: 20vw;
+    }
+    .sec2{
+        display: block;
+    }
+    .sec2-img{
+        display: none;
+    }
+    .sec2-img2{
+        margin-left: -20vw;
+    }
+    .sec2-img3{
+        margin-left: -20vw;
+    }
+    .sec2-img4{
+        margin-left: -25vw;
+        width: 25%;
+        height: auto;
+    }
+    .sec2-h1{
+        font-size: 11vw;
+        margin-left: 6vw;
+    }
+    #sec2-h1{
+        font-size: 10vw;
+    }
+    .sec2-h2{
+        width: 80vw;
+        font-size: 10vw;
+        margin-left: 1vw;
+    }
+    .sec2-span{
+        margin-left: 10vw;
+        font-size: medium;
+        width: 60vw;
+        padding-bottom: 10vw;
+    }
+    .sec2-button3{
+        display: flex;
+        margin-bottom: 10vw;
+        margin-left: 23vw;
+    }
+    .sec2-button1{
+        display: flex;
+        margin-bottom: 10vw;
+        margin-left: 23vw;
+    }
+    .sec2-button2{
+        margin-top: -2000px;
+        margin-bottom: 10vw;
+        margin-left: 2vw;
+    }
+    .footer-button1{
+        margin-left: 20vw;
+    }
+    .footer-div{
+        display: block;
+        margin-left: 20vw;
+    }
+    .footer-span{
+        display: flex;
+        justify-content: center;
+    }
+    .headline {
+        font-size: 1.2rem;
+    }
+    .title {
+        font-size: 1rem;
+    }
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-img{
+        width: 100%;
+    }
+    .header{
+        display:flex;
+        width: 120vw;
+    }
+    .header-div1{
+        width: 80vw;
+        font-size: medium;
+    }
+    #header-div2{
+        display: inline-block;
+        width: 100vw;
+        font-size: small;
+    }
+    .nav-span{
+        margin-bottom: 20vh;
+    }
+    .sec1-div3{
+        margin-left: 20vw;
+    }
+    .sec2{
+        margin-right: -20vw;
+    }
+    .sec3{
+        margin-right: -20vw;
+    }
+    .sec2-span{
+        font-size: larger;
+    }
+    .sec2-span{
+        margin-bottom: 30vw;
+    }
+    .sec2-button1{
+        margin-top: 36vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav{
+        margin-left: 10vw;
+    }
+    .nav-img{
+        width: 90%;
+    }
+    .nav-button1{
+        margin-top: 9vw;
+    }
+    .sec1-div1{
+        margin-left: 80px;
+    }
+    .sec2-button3{
+        margin-top: 26vw;
+    }
+    .sec2-button1{
+        margin-top: 36vh;
+    }
+    .sec2{
+        margin-left: 100px;
+    }
+    .footer-div{
+        gap: 14vw;
+    }
+    .sec2-img2, .sec1-div4{
+        display: none;
+    }
+    .headline {
+        font-size: 1.8rem;
+    }
+    .title {
+        font-size: 1.4rem;
+    }
+    .container {
+        gap: 15px;
+    }
+    .headline {
+        font-size: 1.5rem;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .input {
+        width: 100%; 
+        max-width: none;
+    }
+    .button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .nav-h1, .nav-h2 {
+        font-size: 3vw;
+    }
+    .nav-h2{
+        margin-top: 10px;
+    }
+    .nav-span {
+        width: 50%;
+        font-size: 20px;
+    }
+    .sec1-div1, .sec2 {
+        flex-direction: row;
+        margin-left: 15vw;
+    }
+    .sec2-button3{
+        margin-top: 15vw;
+    }
+    .sec2-button1{
+        margin-top: 12vw;
+    }
+    .header-button {
+        font-size: 18px;
+    }
+    .footer-div{
+        gap: 25vw;
+    }
+    .sec2-img2{
+        display: none;
+    }
+    .sec1-div4{
+        display: none;
+    }
+}
